@@ -7,20 +7,17 @@ body {
 .container {
     display: flex;
     justify-content: center;
-    background-color: rgba(6, 0, 36, 0.7);
+    background-color: rgba(127, 105, 133, 0.7);
 }
 
 .container h1{
     font-size:54px;
+    color: gold;
 }
 .container h2{
-    color: #e1ad01 ;
+    color: #f81008;
     font-size: 40px;
     font-weight: bolder;
-}
-
-#title h1{
-    background-color: rgb(211, 24, 211);
 }
 
 .searchbar{
@@ -38,19 +35,19 @@ body {
     height: 36px;
     border-radius: 5px 0 0 5px;
     outline: none;
-    color: #0dfc05;
+    color: #779476;
     font-size: 30px;
 }
 
 #search{
     width: 90px;
-    border: 3px solid rgb(255, 74, 74);
-    background: rgb(255, 0, 0);
+    border: 3px solid rgb(45, 105, 5);
+    background: rgb(108, 207, 42);
     text-align: center;
     border-radius: 0 5px 5px 0;
     cursor: pointer;
     font-size: 20px;
-    box-shadow: 1px 1px rgb(255, 74, 74) ;
+    box-shadow: 1px 1px rgb(45, 105, 5) ;
 }
 
 .container #result{
@@ -58,12 +55,12 @@ body {
 }
 
 .container #result h2{
-    color: black;
-    background-color: red;
+    color: red;
+    
 }
 
 .container #result h3{
-    color:red;
+    color:rgb(4, 0, 255);
     font-size:30px;
     text-align: center;
     text-transform: uppercase;
@@ -79,5 +76,5 @@ body {
 p{
     font-weight: bold;
     font-style: italic;
-    background-color: #e1ad01;
+    /*background-color: #e1ad01;*/
 }
