@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    background-image: url("avengers.jpg");
+}
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(6, 0, 36, 0.7);
+}
+
+.container h1{
+    font-size:54px;
+}
+.container h2{
+    color: #e1ad01 ;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+#title h1{
+    background-color: rgb(211, 24, 211);
+}
+
+.searchbar{
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+#heroes{
+    width: 400px;
+    border: 1px solid rgb(192, 189, 189);
+    box-shadow: 1px 1px rgb(192, 189, 189) ;
+    border-right: none;
+    padding: 5px;
+    height: 36px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #0dfc05;
+    font-size: 30px;
+}
+
+#search{
+    width: 90px;
+    border: 3px solid rgb(255, 74, 74);
+    background: rgb(255, 0, 0);
+    text-align: center;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+    box-shadow: 1px 1px rgb(255, 74, 74) ;
+}
+
+.container #result{
+    color: white;
+}
+
+.container #result h2{
+    color: black;
+    background-color: red;
+}
+
+.container #result h3{
+    color:red;
+    font-size:30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: normal;
+
+}
+
+.container #result h4{
+    color:black;
+    font-size: 23px;
+}
+
+p{
+    font-weight: bold;
+    font-style: italic;
+    background-color: #e1ad01;
+}
